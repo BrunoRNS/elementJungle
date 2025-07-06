@@ -83,7 +83,7 @@ function renderContent(container, data, currentElement, page) {
     const video = document.createElement('video');
     video.src = `/img/atoms/${index}/${index}.mp4`;
     video.autoplay = true;
-    video.loop = true;
+    video.loop = false;
     video.muted = true;
     video.playsInline = true;
     video.className = 'mx-auto mb-8 w-48 h-auto rounded-md shadow-lg';
